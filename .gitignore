@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/GiftsProject/DesignTimeBuild
+/GiftsProject/GiftsProject/bin/Debug/netstandard2.0/GiftsProject.pdb
+/GiftsProject/GiftsProject/bin/Debug/netstandard2.0/GiftsProject.dll.mdb
+/GiftsProject/GiftsProject/bin/Debug/netstandard2.0/GiftsProject.dll
+/GiftsProject/GiftsProject/bin/Debug/netstandard2.0/GiftsProject.deps.json
+/GiftsProject/GiftsProject/obj/Debug/netstandard2.0/XamlC.stamp
+/GiftsProject/GiftsProject/obj/Debug/netstandard2.0/GiftsProject.pdb
+/GiftsProject/GiftsProject/obj/Debug/netstandard2.0/GiftsProject.csproj.FileListAbsolute.txt
+*.mdb
+*.dll
+/GiftsProject/GiftsProject.Android/bin/Debug/GiftsProject.Android.pdb
+*.pdb
+*.java
