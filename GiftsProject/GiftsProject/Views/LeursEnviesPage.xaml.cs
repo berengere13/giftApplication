@@ -4,15 +4,14 @@ using Xamarin.Forms.Xaml;
 namespace GiftsProject.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ItemDetailPage : ContentPage
+    public partial class LeursEnviesPage : ContentPage
     {
-      
-        public ItemDetailPage()
+        public LeursEnviesPage()
         {
             InitializeComponent();
-
             BindingContext = this;
         }
-       
+
+      
     }
 }

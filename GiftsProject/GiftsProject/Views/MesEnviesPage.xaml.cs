@@ -6,9 +6,9 @@ using Xamarin.Forms.Xaml;
 namespace GiftsProject.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AboutPage : ContentPage
+    public partial class MesEnviesPage : ContentPage
     {
-        public AboutPage()
+        public MesEnviesPage()
         {
             InitializeComponent();
         }

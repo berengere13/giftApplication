@@ -4,17 +4,13 @@
              x:Class="GiftsProject.Views.MenuPage"
              Title="Menu">
     <StackLayout VerticalOptions="FillAndExpand">
-        <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="10">
-                            <Label Text="{Binding Title}" FontSize="20"/>
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+      
+        <Label Text="Mes envies">
+            <Label.GestureRecognizers><TapGestureRecognizer Tapped="MesEnvies_Tapped"></TapGestureRecognizer></Label.GestureRecognizers>
+            </Label>
+        <Label Text="Leurs envies">
+            <Label.GestureRecognizers><TapGestureRecognizer Tapped="LeursEnvies_Tapped"></TapGestureRecognizer></Label.GestureRecognizers>
+            </Label>
+
     </StackLayout>
 </ContentPage>

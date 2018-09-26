@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace GiftsProject.Models
 {
-    public class Item
+    public class Commentaire
     {
         public string Id { get; set; }
+
         public string Text { get; set; }
-        public string Description { get; set; }
+
     }
 }

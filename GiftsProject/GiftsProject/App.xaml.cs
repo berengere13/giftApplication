@@ -13,8 +13,9 @@ namespace GiftsProject
         {
             InitializeComponent();
 
-
-            MainPage = new MainPage();
+            
+                MainPage = new MainPage();
+            
         }
 
         protected override void OnStart()
