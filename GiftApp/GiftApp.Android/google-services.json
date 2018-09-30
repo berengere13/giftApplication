@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "18700503544",
+    "firebase_url": "https://giftapp-b59cc.firebaseio.com",
+    "project_id": "giftapp-b59cc",
+    "storage_bucket": "giftapp-b59cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18700503544:android:b3f95395c456ab12",
+        "android_client_info": {
+          "package_name": "com.berengere.GiftsProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18700503544-0dc1opnhcjh7j87r6aih8blbip3f5lc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvdqxxuiPM2asLxrilTI-6mrNF8dIuFrA"
+        },
+        {
+          "current_key": "AIzaSyAvdqxxuiPM2asLxrilTI-6mrNF8dIuFrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
