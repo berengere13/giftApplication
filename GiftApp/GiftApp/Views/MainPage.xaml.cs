@@ -9,7 +9,7 @@ namespace GiftApp
     public partial class MainPage
     {
      
-        string FirebaseURL = Secrets;
+        string FirebaseURL = App.Current.Resources["secrets.json"].ToString();
 
         public MainPage()
         {
