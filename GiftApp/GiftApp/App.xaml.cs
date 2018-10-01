@@ -1,6 +1,5 @@
 ﻿using System;
 using Android.Widget;
-using Firebase.Xamarin.Database;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

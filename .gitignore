@@ -30,3 +30,5 @@ bld/
 .vs/GiftApp/v15/Server/sqlite3/storage.ide-shm
 .vs/GiftApp/v15/Server/sqlite3/storage.ide
 .vs/GiftApp/v15/Server/sqlite3/db.lock
+GiftApp/GiftApp/Resources/secrets.json
+data.json

@@ -1,12 +1,16 @@
-﻿using Firebase.Xamarin.Database;
+﻿using System;
+using System.IO;
 using System.Windows.Input;
+using Firebase.Database;
 using Xamarin.Forms;
 
 namespace GiftApp
 {
     public partial class MainPage
     {
-        
+     
+        string FirebaseURL = Secrets;
+
         public MainPage()
         {
             InitializeComponent();
