@@ -1,23 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Windows.Input;
 using Firebase.Database;
+using GiftApp.Models;
+using GiftApp.Views;
 using Xamarin.Forms;
 
 namespace GiftApp
 {
     public partial class MainPage
     {
-     
-        string FirebaseURL = App.Current.Resources["secrets.json"].ToString();
-
         public MainPage()
         {
             InitializeComponent();
             BindingContext = this;
 
-            var fireabase = new FirebaseClient(FirebaseURL);
-            
         }
 
         public ICommand _seeMyEnviesCommand { get; set; }
@@ -25,13 +23,12 @@ namespace GiftApp
 
         public ICommand SeeMyEnviesCommand => _seeMyEnviesCommand ?? new Command(() =>
                                                   {
-                                                      
-                                                      DisplayAlert("Voir mes envies", "voir mes envies", "Annuler");
+                                                      Navigation.PushAsync(new MesEnviesPage());
                                                   });
-        public ICommand SeeAllEnviesCommand => _seeAllEnviesCommand ?? new Command(() =>
-                                                  {
-                                                      DisplayAlert("Voir leurs envies", "voir leurs envies", "Annuler");
-                                                  });
+        public ICommand SeeAllEnviesCommand => _seeAllEnviesCommand ?? new Command(async() =>
+        {
+            await Navigation.PushAsync(new ListUsers());
+        });
 
     }
 }
