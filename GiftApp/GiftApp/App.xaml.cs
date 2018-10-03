@@ -1,5 +1,6 @@
 ﻿using System;
 using Android.Widget;
+using GiftApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

@@ -9,8 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace GiftApp.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MesEnviesPage : ContentPage
+	public partial class MesEnviesPage
 	{
 		public MesEnviesPage ()
 		{

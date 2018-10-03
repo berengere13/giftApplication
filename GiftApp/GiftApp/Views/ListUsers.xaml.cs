@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Android.Media;
+﻿using System.Collections.Generic;
 using GiftApp.Models;
 using GiftApp.Services;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace GiftApp.Views
 {

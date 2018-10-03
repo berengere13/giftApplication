@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Windows.Input;
-using Firebase.Database;
-using GiftApp.Models;
-using GiftApp.Views;
+﻿using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace GiftApp
+namespace GiftApp.Views
 {
     public partial class MainPage
     {
@@ -15,7 +9,6 @@ namespace GiftApp
         {
             InitializeComponent();
             BindingContext = this;
-
         }
 
         public ICommand _seeMyEnviesCommand { get; set; }

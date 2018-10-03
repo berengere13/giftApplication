@@ -1,10 +1,10 @@
-﻿using GiftApp.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Firebase.Xamarin.Auth;
+using Newtonsoft.Json;
+using User = GiftApp.Models.User;
 
 namespace GiftApp.Services
 {
@@ -16,6 +16,18 @@ namespace GiftApp.Services
         {
             if (FirebaseClient == null)
             {
+                //FirebaseClient = new FirebaseClient(FirebaseURL, new FirebaseOptions
+                //{
+                //    AuthTokenAsyncFactory = () => Task.FromResult(FirebaseKey)
+                //});
+
+                var opt = new FirebaseOptions
+                {
+                    JsonSerializerSettings = new JsonSerializerSettings
+                    {
+
+                    }
+                };
                 FirebaseClient = new FirebaseClient(FirebaseURL);
             }
 
